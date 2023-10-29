@@ -1,0 +1,104 @@
+.partner-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-partners h2 {
+    background: linear-gradient(180deg,
+            hsla(183, 60%, 64%, 1) 0%,
+            hsla(103, 60%, 64%, 1) 100%);
+    padding: 20px;
+    text-align: center;
+    width: 100vw;
+    font-family: "Raleway", Times, serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.partner-images {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.awards-and-descriptions {
+    background-color: lightblue;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.awards-and-descriptions p {
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mb-0 {
+    margin-top: 27px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.awards-and-descriptions h3 {
+    margin-top: 27px;
+    color: #fff !important;
+    font-size: 2.5rem !important;
+}
+
+.contact-form {
+    background-color: lightgray;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.awards-and-descriptions h4 {
+    color: white;
+
+    font-size: 0.78571rem !important;
+    font-weight: 700;
+    font-family: Open Sans;
+}
+
+.awards-and-descriptions {
+    background: #6cda95;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    background: #6cda95;
+}
+
+.fa-suitcase-rolling:before {
+    content: "\f5c1";
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 2.7rem;
+}
+
+.fa-backpack:before {
+    color: rgba(255, 255, 255, 0.6);
+
+    content: "\f5c1";
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 2.7rem;
+}
+
+.fa-id-badge:before {
+    font-size: 2.7rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.fa-person-biking:before {
+    content: "\f84a";
+    font-size: 2.7rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.fa-map:before {
+    content: "\f84a";
+    font-size: 2.7rem;
+    color: rgba(255, 255, 255, 0.6);
+}

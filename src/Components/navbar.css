@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100&family=Open+Sans:wght@300;400&family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Jost:wght@300;400;500&family=Lato:wght@100&family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.nav-item {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #f7d5fe !important;
+}
+
+.nav-item a {
+    font-weight: bold;
+    color: #000000 !important;
+}
+
+.nav-link {
+    font-family: Jost;
+    letter-spacing: 1px;
+    font-weight: bold !important;
+}
+
+.main {
+    padding-top: 0px !important;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7d5fe;
+
+    color: #000000;
+
+    gap: 70px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar-logo img {
+    height: 50px;
+}
+
+.navbar-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-weight: bolder;
+    font-size: 12px !important;
+    font-family: "Jost";
+    letter-spacing: 1px;
+}
+
+.navbar-links a:hover,
+.navbar-links a:visited {
+    text-decoration: underline;
+}

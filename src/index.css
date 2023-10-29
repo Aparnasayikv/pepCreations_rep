@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hrl {
+  color: #a9a5a5;
+  height: 2px;
+  width: 100%;
+  opacity: 0.5;
+}
+
+textarea {
+  height: 100px !important;
+  padding: 14px 6px 0px !important;
+}
+
+.label-wrap {
+  margin: 68px;
+  padding: 30px;
+  border: 1px solid white;
+}
+
+
+
+.contack-bg {
+  background-color: #6cda95;
+}
+
+.form_label button {
+  background-color: rgba(0, 174, 239, 1) !important;
+  padding: 15px 20px;
+  margin: 0;
+  min-height: 52px;
+  font-weight: 700;
+
+}
+
+.form_label input,
+textarea {
+
+  margin-bottom: 15px;
+  border-radius: 4px;
+  height: 55px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, .08);
+  color: #000;
+  width: 100%;
+  padding: 0px 6px 0px;
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px;
+  letter-spacing: -0.3px;
+}
+
+.form_label {
+  padding-left: 31px;
+  padding-right: 31px;
+}

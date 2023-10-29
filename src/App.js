@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Components/App.css";
+import "./Components/partnerpage.css";
+import "./Components/carousel.css";
+import ContactUs from "./Components/ContactUs";
+import LandingPage from "./Components/LandingPage";
+import Meetteam from "./Components/Meetteam";
+import Portfolio from "./Components/Portfolio";
+import Services from "./Components/Services";
+import Partners from "./Components/Partners";
+import ContactPage from "./Components/ContactPage";
+import Navbar from "./Components/Navbar";
+import "./Components/Portfolio.css";
+import "./Components/meetteam.css";
+import "./Components/services.css";
+import "./Components/Card";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Components/landing.css";
+import "./Components/navbar.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <LandingPage />
+      <Services />
+      <Meetteam />
+      <Portfolio />
+      <Partners />
+      <ContactPage />
+      <ContactUs />;
+    </>
   );
 }
 
